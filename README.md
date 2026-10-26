@@ -194,8 +194,7 @@ conectado ao comando de console `projeto-pns`.
 uv run projeto-pns
 ```
 
-Esse comando apenas imprime uma mensagem de teste; não executa o pipeline de
-dados.
+Esse comando apenas imprime uma mensagem de teste; não executa o pipeline de dados.
 
 ## Dependências principais
 
@@ -206,5 +205,4 @@ dados.
 | `python-dotenv` | Carregamento da configuração local do FTP |
 | `ipykernel` | Kernel Python para execução do notebook |
 
-O projeto não declara atualmente ferramentas de teste, formatação ou análise
-estática, e não há uma suíte de testes automatizados configurada.
+O projeto não declara atualmente ferramentas de teste, formatação ou análise estática, e não há uma suíte de testes automatizados configurada.
