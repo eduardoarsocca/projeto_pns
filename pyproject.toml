@@ -1,0 +1,22 @@
+[project]
+name = "projeto-pns"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Eduardo Augusto Rabelo Socca", email = "eduardo_socca@yahoo.com.br" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "pandas>=3.0.6",
+    "python-dotenv>=1.2.4",
+    "xlrd>=2.0.2",
+]
+
+[project.scripts]
+projeto-pns = "projeto_pns:main"
+
+[build-system]
+requires = ["uv_build>=0.12.4,<0.13.0"]
+build-backend = "uv_build"
